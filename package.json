@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/freeCodeCamp/boilerplate-project-headerparser.git"
+    "url": "https://github.com/hanconsol/request-head-parser-microservice.git"
   },
   "bugs": {
     "url": "https://github.com/freeCodeCamp/freeCodeCamp/issues"
   },
-  "homepage": "https://github.com/freeCodeCamp/boilerplate-project-headerparser#readme",
+  "homepage": "https://hanconsol.github.io/request-head-parser-microservice/",
   "author": "freeCodeCamp <team@freecodecamp.org>",
   "keywords": [
     "freeCodeCamp",
