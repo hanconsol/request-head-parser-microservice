@@ -3,7 +3,6 @@
 
 // init project
 require('dotenv').config();
-require('express');
 var express = require('express');
 var app = express();
 
@@ -28,7 +27,11 @@ app.get('/api/hello', function (req, res) {
 
 // send request ip address
 app.get('/api/whoami', function (req, res) {
-  res.json({ ipaddress: req.ip });
+const lang = req.get('accept-language');
+const softW = req.get('accept-encoding');
+console.log(req.headers);
+
+  res.json({ ipaddress: req.ip, language: lang, software: softW});
  
 });
 
