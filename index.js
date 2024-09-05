@@ -5,7 +5,7 @@
 require('dotenv').config();
 var express = require('express');
 var app = express();
-const myRouter = require('./router/api.router.js')
+const myRouter = require('./public/router/api.router.js')
 
 // enable CORS (https://en.wikipedia.org/wiki/Cross-origin_resource_sharing)
 // so that your API is remotely testable by FCC
